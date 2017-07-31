@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Uygulama Örneği</title>
+    <style>
+    /* CSS KODLARI BURADA YER ALIYOR */
+
+    body {
+    	background: url("arkaplan.png");
+    	font-family: sans-serif;
+    }
+
+    .kutu {
+    	width: 80%;
+    	margin: 20px auto;
+    	background: rgba(0, 0, 0, .4);
+    	padding: 20px;
+    	color: #fff;
+    	/*
+    	margin: 5px 10px 7px 3px;
+    	margin-top: 5px;
+    	margin-right: 10px;
+    	margin-bottom: 7px;
+    	margin-left: 3px;
+    	*/
+    }
+
+    .ust-bilgi {
+    	border: 1px solid red;
+    }
+
+    #sayfaBaslik {
+    	text-align: center;
+    }
+
+    div > .hemen-altinda {
+    	color: red;
+    }
+
+    a {
+    	color: #efefef;
+    }
+
+    img {
+    	float: left;
+    	padding: 10px;
+    	border: 1px solid silver;
+    	background: #efefef;
+    	margin: 10px;
+    	border-radius: 5px;
+    }
+    </style>
+  </head>
+  <body>
+  <!-- HTML YORUM SATIRI
+  <div>
+  	<ul>
+  		<li class="hemen-altinda">Bu KIRMIZI DEĞİL! </li>
+  	</ul>
+  	<p class="hemen-altinda">Bu KIRMIZI</p>
+  </div>
+  	<div class="ust-bilgi">LYK 2017 Python</div>
+  	-->
+  	<div class="kutu">
+	    <h1 id="sayfaBaslik">Richard Stallman</h1>
+	    <p>
+	    	<img src="https://tr.0wikipedia.org/index.php?q=aHR0cDovL3VwbG9hZC53aWtpbWVkaWEub3JnL3dpa2lwZWRpYS9jb21tb25zL3RodW1iLzAvMDAvUm1zX2lmaV9sYXJnZS5qcGcvMjIwcHgtUm1zX2lmaV9sYXJnZS5qcGc" />
+	    </p>
+	    <p><b>Richard Matthew Stallman</b> (İnternet ortamında kullanılan kısaltması <b>rms</b>; d. <a href="https://tr.0wikipedia.org/index.php?q=aHR0cHM6Ly90ci53aWtpcGVkaWEub3JnL3dpa2kvMTZfTWFydA">16 Mart</a> <a href="https://tr.0wikipedia.org/index.php?q=aHR0cHM6Ly90ci53aWtpcGVkaWEub3JnL3dpa2kvMTk1Mw">1953</a>), ABD'li özgür yazılım aktivisti, sistem uzmanı ve yazılım geliştiricisi. GNU Projesi ve Özgür Yazılım Vakfı'nın kurucusudur.</p>
+	    <p>
+		    Eylül 1983'de, Unix-benzeri işletim sistemi oluşturmak amacıyla işletim sistemi çekirdeği (kernel) hariç bir işletim sistemi için gerekli olan tüm yazılımları içeren dev bir özgür yazılım koleksiyonu olan <i>GNU Projesi</i> ni hayata geçirmiştir. 70'lerin sonu ve 80'lerin başında MIT'de AI (Yapay Zekâ) konusunda çalışmalar yaptığı sırada mesai arkadaşlarının geliştirdikleri yazılımların kaynak kodlarını ticaret amacıyla kapatmalarına karşı isyanı bugüne kadar devam etmektedir.
+	    </p>
+	    <p>
+	    	Stallman'a göre yazılım kodlarının gizlenmesi beraberinde birçok sorunu getirmekteydi. Bunlardan en çok yaşananı, bir firma veya şahsın açık kaynak kodlu bir yazılımı alıp birkaç değişiklik yaptıktan sonra kaynak kodunu kapatarak ticari amaçla kullanmasıydı. Böylesi bir döngü dünyadaki tüm geliştirilen yazılımların zamanla kapalı kaynak haline gelmesine yol açabileceği için Stallman MIT'deki hacker faaliyetlerini ve enerjisini, özgür yazılım savunuculuğuna yöneltmiştir.
+	    </p>
+	    <p>
+	    	Stallman'ın savunuculuğunu yaptığı özgür yazılım aslında dünyanın birçok başka yerinde zaten uygulanmaktaydı. University of California, Berkeley'de vücuda gelen BSD bunun başta gelen örneğidir. BSD geliştirdiği yazılımları, ki aralarında TCP/IP protokol takımı gibi İnternet'in belkemiğini oluşturan kodlar da vardır, tamamen açık şekilde herkesin takdirine sunmaktaydı.
+	    </p>
+	    <h3>Donanım tekelleşmesine karşı etkileri</h3>
+	    <p>
+	    	Özgür Yazılım Vakfı'nın yaygınlaştırdığı GPL gibi özgür lisanslama yöntemleri ADSL Modemler, Wireless (Wifi) cihazların ("Embedded Linux" gibi uygulamalar sayesinde) üst düzeyde performansı en hesaplı şekilde sunmasını sağlamıştır. Bu bağlamda Internet protokolü yazılımlarının (örneğin "TCP/IP Stack") 90'lı yıllarda Internet'in patlamasına yol açması gibi günümüzde ADSL, WiFi, GPRS/EDGE/3G cihazlarının milyarlarca insan tarafından benimsenip kullanılmasının da teknolojilerin özgür şekilde geliştirilip herkese açık şekilde sunulması sayesinde gerçekleşmiş olduğundan bahsedilebilir.
+	    </p>
+	    <p>
+	    	Özgür Yazılım Vakfı donanım parçalarını birbirine bağımlı kılacak şekilde üreten üreticilere karşı da harekete geçmiştir. Bazı dizüstü bilgisayar üreticileri, dizüstülerin içinde kullanılan Mini PCI WiFi kartların sadece kendileri tarafından sağlanan Mini PCI kartla çalışabilecek şekilde ayarlamaktaydı. Mini PCI standardının amacına aykırı ve yedek parça fiyatlarının yükselmesine yol açabilecek bu uygulamaya karşı FSF gerekli önlemleri almış[2] olup, konu ile ilgili bilgilendirme yazısını kamu bilgisine sunmuştur.
+	    </p>
+	    <h3>Kullandığı bilgisayar ve yazılım</h3>
+	    <p>
+	    	Stallman bilgisayar olarak Quanta Computer üretimi Lemote YeeLong marka netbook kullandığını söylemektedir. Bu netbookta işletim sistemi olarak bir GNU/Linux sürümü olan gNewSense yüklü olup, booter olarak Linux MIPS - PMON kullanmaktadır.
+	    </p>
+	    <h3>Türkiye'de Richard Stallman</h3>
+	    <p>
+	    	Şubat 2011 tarihlerinde yedincisi düzenlenen Bilgisayar Mühendisliği Öğrencileri Kongresi'nde bir konuşma yapmak üzere Yeditepe Üniversitesi Bilgisayar Topluluğu'nun davetlisi olarak Türkiye'ye geldi. Bu ziyaretinde 26 Şubat 2011'de Yeditepe Üniversitesi'nde, 27 Şubat 2011'de de Ankara'da bir konuşma yapmıştır.
+	    </p>
+    </div>
+    <script
+			  src="http://code.jquery.com/jquery-3.2.1.js"></script>
+    <script>
+    /*
+    	document.getElementById("sayfaBaslik").innerText = "Richard Mı Acaba?";
+    	console.log(document.getElementsByClassName("kutu"));
+	*/
+	/*
+	$("#sayfaBaslik").text("Richard Olamaz...");
+	$(".kutu").html("<h1>SİTE NEREYE GİTTİ?!</h1>");
+	*/
+    </script>
+  </body>
+</html>

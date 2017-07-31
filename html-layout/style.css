@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&subset=latin-ext');
+
+body {
+	background: #d5dfe5;
+	font-family: 'Roboto', sans-serif;
+}
+
+.kutu {
+	width: 960px;
+	margin: 20px auto;
+}
+
+.kutu > header {
+
+}
+
+.kutu > header .logo {
+	font-size: 26px;
+	font-weight: bold;
+	width: 500px;
+	float: left;
+}
+
+.kutu > header .logo img {
+	height: 64px;
+	display: block;
+	float: left;
+}
+
+.kutu > header .logo a {
+	background: #b3bfb8;
+	color: #4e5166;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	-webkit-transition: all 500ms ease-in-out;
+	-moz-transition: all 500ms ease-in-out;
+	-ms-transition: all 500ms ease-in-out;
+	-o-transition: all 500ms ease-in-out;
+	transition: all 500ms ease-in-out;
+}
+
+.kutu > header .logo span {
+	display: block;
+	float: left;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.kutu > header .logo a:hover {
+	background: #4e5166;
+	color: #d5dfe5;
+	-webkit-transition: all 500ms ease-in-out;
+	-moz-transition: all 500ms ease-in-out;
+	-ms-transition: all 500ms ease-in-out;
+	-o-transition: all 500ms ease-in-out;
+	transition: all 500ms ease-in-out;
+}
+
+.clear {
+	clear: both;
+}
+
+.buton {
+	display: block;
+	padding: 7px 20px;
+	background: #b3bfb8;
+	color: #4e5166;
+	float: right;
+	text-decoration: none;
+	margin-top: 20px;
+	border-radius: 10px;
+}
